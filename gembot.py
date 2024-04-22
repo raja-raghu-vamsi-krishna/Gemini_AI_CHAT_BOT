@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the Gemini API
-GOOGLE_API_KEY = 'AIzaSyC89g3QWLs6H8fx7fhZVYEuKZeUG6wzEuo'
+GOOGLE_API_KEY = '"C:\Users\user\OneDrive\Desktop\gembot_key.txt"'
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 # Set Streamlit page configuration
